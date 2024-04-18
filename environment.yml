@@ -1,0 +1,24 @@
+name: train_route
+channels:
+  - apple
+  - pytorch
+  - defaults
+dependencies:
+  - python>= 3.5
+  - anaconda
+  - pip
+  - pip :
+      - tensorflow-macos; platform_system == "Macos"
+      - tensorflow-metal; platform_system == "Macos"
+      - tensorflow; platform_system == "Linux"
+      - tensorflow; platform_system == "Windows"
+      - cvrplib~=0.1.1
+      - numpy==1.24
+      - torch~=1.13.1
+      - matplotlib==3.6.3
+      - scipy~=1.10.0
+      - tqdm==4.64.1
+      - accelerate==0.15.0
+
+
+
