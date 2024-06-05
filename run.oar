@@ -1,0 +1,15 @@
+#/bin/bash
+#OAR -n top
+#OAR -l gpu=1,walltime=48
+#OAR -p host="orval39"
+#OAR -O output.%jobid%.out
+#OAR -E output.%jobid%.err
+#OAR -t besteffort
+#OAR -t idempotent
+
+. /nfs/opt/env/env.sh
+module load conda
+module load cuda
+conda activate top
+
+NUMBA_NUM_THREADS=32 CUDA_VISIBLE_DEVICES=0 CUDA_VISIBLE_DEVICES=0 COMET_API_KEY="" python train.py
