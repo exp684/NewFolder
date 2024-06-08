@@ -10,8 +10,10 @@ Just pour faire un test.
 
 Premier commit sur b1 : - a -
 Deuxième commit sur b1 : - b -
+<<<<<<< HEAD
 Troisième commit sur b1: - c -
+=======
 Quatrième commit sur b2 : - d -
 Cinquième commit sur b2 : - e -
-
+>>>>>>> b2
 
