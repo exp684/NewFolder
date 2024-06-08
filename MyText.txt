@@ -9,3 +9,5 @@ Just pour faire un test.
 -  Et voilà, on verra si cela fonctionne ou pas....
 
 Premier commit sur b1 : - a -
+Deuxième commit sur b1 : - b -
+
