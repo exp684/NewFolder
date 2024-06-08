@@ -10,4 +10,5 @@ Just pour faire un test.
 
 Premier commit sur b1 : - a -
 Deuxième commit sur b1 : - b -
+Troisième commit sur b1: - c -
 
